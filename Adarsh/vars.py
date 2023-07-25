@@ -12,10 +12,10 @@ class Var(object):
     API_ID = int(getenv('API_ID', '20680771'))
     API_HASH = str(getenv('API_HASH', '4c2acbae998616f69c511676e103f4f9'))
     BOT_TOKEN = str(getenv('BOT_TOKEN', '6629631264:AAF4j5zRnEdx_y9C8YCK0TPu58CucBekjOg'))
-    name = str(getenv('name', 'filetolinkbot'))
+    name = str(getenv('name', 'app16287'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', 'oksmjgya'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001532011473'))
     PORT = int(getenv('PORT', '8080'))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
@@ -25,7 +25,7 @@ class Var(object):
     OWNER_USERNAME = str(getenv('OWNER_USERNAME', ''))
     if 'DYNO' in environ:
         ON_HEROKU = True
-        APP_NAME = str(getenv('APP_NAME'))
+        APP_NAME = str(getenv('app16287'))
     
     else:
         ON_HEROKU = False
