@@ -7,7 +7,7 @@ from utils_bot import *
 from Adarsh import StartTime
 
 
-START_TEXT = """ Your Telegram DC Is : `{}`  """
+START_TEXT = """ ⚡️ Your Telegram DC Is : `{}`  """
 
 
 @StreamBot.on_message(filters.regex("maintainers😎"))
@@ -17,12 +17,12 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="I am Made By [GreyMatter's Bot](https://t.me/GreyMatter_Bots)",
+                    text="I am Made By [𝐖𝐃 𝐙𝐨𝐧𝐞™ Bot](https://t.me/New_Kolkata_bot)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Owner💻", url=f"https://t.me/GreyMatter_Owner")
+                                InlineKeyboardButton("𝐎𝐰𝐧𝐞𝐫 🌼", url=f"https://t.me/WD_Contact_Bot")
                             ]
                         ]
                     ),
@@ -37,12 +37,12 @@ async def follow_user(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="<B>HERE'S THE SUBSCRIBE LINK</B>",
+                    text="<B>𝐖𝐎𝐎𝐃𝐜𝐫𝐚𝐟𝐭 𝐌𝐢𝐫𝐫𝐨𝐫 𝐙𝐨𝐧𝐞™</B>",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Subscribe ❤️", url=f"https://youtube.com/@GreyMattersYT")
+                                InlineKeyboardButton("Subscribe ❤️", url=f"https://t.me/Opleech")
                             ]
                         ]
                     ),
